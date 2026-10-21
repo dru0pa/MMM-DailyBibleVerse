@@ -4,8 +4,6 @@ This an extension for the [MagicMirror](https://github.com/MichMich/MagicMirror)
 ## Installation
 1. Navigate into your MagicMirror's `modules` folder 
 2. Execute `git clone https://github.com/arthurgarzajr/MMM-DailyBibleVerse.git`
-3. Navigate to newly created folder `MMM-DailyBibleVerse`
-4. Execute `npm install`
 
 ## Using the module
 
@@ -48,14 +46,17 @@ The following properties can be configured:
 		</tr>
 		<tr>
 			<td><code>size</code></td>
-			<td>Default size is medium but it can be overriden with <code>xsmall</code>, <code>small</code> or <code>large</code>.</td>
+			<td>Default size is medium but it can be overridden with <code>xsmall</code>, <code>small</code> or <code>large</code>.</td>
+		</tr>
+		<tr>
+			<td><code>updateInterval</code></td>
+			<td>How often the verse is refreshed in milliseconds (default: <code>3600000</code>, i.e. 1 hour).</td>
 		</tr>
 	</tbody>
 </table>
 
 ## Dependencies
 - Access to the internet to download verse of the day from www.biblegateway.com.
-- npm package `request`
 
 The MIT License (MIT)
 =====================
